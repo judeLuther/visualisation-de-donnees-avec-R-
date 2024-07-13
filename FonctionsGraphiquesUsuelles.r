@@ -3,18 +3,6 @@
 #### Les fonctions graphiques usuelles ####
 ###########################################
 
-# Références :
-# 1. Chapitre 3 du livre : R pour les statistiques et la science des données
-#    voir le site web du livre : https://r-stat-sc-donnees.github.io
-# 2. D'autres sites web : http://www.thibault.laurent.free.fr/cours/R_intro/chapitre_4.html
-#                         http://www.r-graph-gallery.com
-#                         https://lrouviere.github.io/VISU/
-
-# On peut obtenir des exemples de représentations graphiques 
-# à l'aide de la fonction "demo()" :
-
-# demo(graphics)
-
 # Nous allons donner des exemples de représentation 
 # pour des variables quantitatives/qualitatives.
 # Nous utilisons le fichier de données ``ozone.txt''

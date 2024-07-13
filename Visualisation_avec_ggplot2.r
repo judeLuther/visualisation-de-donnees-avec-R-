@@ -1,14 +1,6 @@
 
 #### Fonctions graphiques avec ggplot 2 ####
 
-# Références :
-# 1. Chapitre 3 du livre : R pour les statistiques et la science des données
-#    voir le site web du livre : https://r-stat-sc-donnees.github.io
-# 2. D'autres sites web : http://www.thibault.laurent.free.fr/cours/R_intro/chapitre_4.html
-#                         http://www.r-graph-gallery.com
-#                         https://github.com/tidyverse/ggplot2
-#                         http://ggplot2.tidyverse.org
-
 # Le package ggplot2 est très utilisé en visualisation de données;
 # il permet d'obtenir des représentations graphiques par sous-groupe d'individus
 # avec très peu de lignes de code, et de façon simple. La disposition des graphes

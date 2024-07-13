@@ -1,6 +1,4 @@
 #### Construction de cartes ####
-# Référence : https://lrouviere.github.io/TUTO_VISU/correction/faire-des-cartes-avec-r.html
-# Document : "Tutoriel_VisualisationDesDonnees.pdf" à télécharger sur Moodle
 
 library(dplyr)
 library(tidyverse)
@@ -152,7 +150,7 @@ ggplot(nc2)+geom_sf()+geom_sf(aes(geometry=centre))
 ##### page 83 ####
 # Exercice 2.2
 # Importer les fichiers contenus dans le répertoire "dpt" 
-dpt <- read_sf("/Users/amorkeziou/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/dpt")
+dpt <- read_sf("/Users/judeluther/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/dpt")
 ggplot(dpt) + geom_sf()
 
 ##### page 84 ####
@@ -171,7 +169,7 @@ ggplot(dpt)+geom_sf(fill="white")+
 # Exercice 2.3
 # importer le fichier de données "tauxchomage.csv"
 chomage <- read_delim(file.choose(), delim=";")
-dpt <- read_sf("/Users/amorkeziou/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/dpt")
+dpt <- read_sf("/Users/judeluther/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/dpt")
 dpt2 <- inner_join(dpt, chomage, by="CODE_DEPT")
 
 dpt3 <- dpt2 %>% select(A2006=TCHOMB1T06, A2011=TCHOMB1T11, geometry) %>%
@@ -242,7 +240,7 @@ ggplot(data = world) +
   geom_sf() +
   coord_sf(crs = "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +units=m +no_defs")
 
-regions <- read_sf("/Users/amorkeziou/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/regions-20180101-shp/")
+regions <- read_sf("/Users/judeluther/Documents/DisqueExterne/Enseignement/2022_2023/INFO0808_VisualisationDeDonnees/Data/regions-20180101-shp/")
 
 ##### page 91 ####
 format(object.size(regions),units="Mb")
