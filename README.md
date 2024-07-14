@@ -1,5 +1,8 @@
 # Visualisation des données avec R
 
+## Auteurs
+- **LECKOMBA Jude Luther**
+
 Ce projet est conçu pour fournir une introduction complète aux techniques de visualisation de données que j'ai réalisé, en se concentrant particulièrement sur des analyses visuelles plus profondes et intuitives.
 
 ## Table des matières
